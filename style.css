@@ -1,0 +1,515 @@
+*{padding:0;margin:0;border:0;}
+*,*:before,*:after{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
+:focus,:active{outline:none;}
+a:focus,a:active{outline:none;}
+nav,footer,header,aside{display:block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display:none;}
+button{cursor:pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration:none;}
+a:hover{text-decoration:none;}
+ul li{list-style:none;}
+img{vertical-align:top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
+
+.header {
+    padding: 30px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+   
+}
+
+.header__container {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+  
+}
+
+
+.header__menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu__logo {
+    margin-right: 40px;
+}
+
+.menu__list {
+    margin-left: auto;
+    display: flex;
+    
+    
+}
+
+.menu__inner {
+    font-family: Libre Franklin;
+    margin-right: 40px;
+    
+}
+
+
+
+.menu__inner:last-child  {
+    margin-right: 0;
+}
+
+.menu__link {
+    
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+    
+
+}
+
+
+.menu__button {
+    font-family: Libre Franklin;
+    position: relative;
+    margin-left: 70px;
+    
+}
+
+.menu__button::before {
+    content: "";
+    width: 4px;
+    height: 4px;
+    position: absolute;
+    left: -35px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #FFFFFF;
+}
+
+.btn__sign {
+    font-family: Libre Franklin;
+    margin-right: 35px;
+    
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;   
+}
+
+
+
+
+.btn__get {
+    font-family: Libre Franklin;
+    padding: 11px 17px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+    border: 2px solid #FFFFFF;
+    border-radius: 4px;
+}
+
+
+
+
+.intro {
+    padding-top: 68px;
+    width: 100%;
+    height: 582px;
+    background: url(img/IMAGE.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.intro__container {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.intro__row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro__title {
+    margin-top: 200px;
+    text-align: center;
+    font-family: Libre Franklin;
+    font-weight: 700;
+    font-size: 71px;
+    line-height: 78px;
+    color: #fff;
+}
+
+.intro__text {
+    margin-top: 35px;
+    text-align: center;
+    font-family: 'IBM Plex Mono', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 24px;
+    color: #fff;
+
+}
+
+.intro__button {
+    margin-top: 60px;
+}
+
+.intro__get {
+    padding: 15px 30px;
+    background: #5AB963;
+    border-radius: 4px;
+    font-family: Libre Franklin;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #fff;
+}
+
+.container {
+    
+    padding: 120px 135px;
+  
+}
+
+.service {
+    padding: 120px 0;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1170px;
+   
+}
+
+.service__name {
+    width: 507px;
+}
+.name {
+}
+
+
+
+.service__text {
+    margin: 0;
+    font-family: "Libre Franklin", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000;
+}
+.service__title {
+
+}
+.whitespace {
+    
+}
+.text__opacity {
+    margin-left: 3px;
+    font-family: "Libre Franklin", sans-serif;
+    font-weight: 100;
+    font-size: 24px;
+    line-height: 36px;
+    opacity: .5;
+    
+    
+}
+
+.service__info {
+    display: flex;
+    
+    
+}
+.service__options {
+    
+}
+.service__list {
+   padding-top: 51px;
+   padding-left: 41px; 
+   margin-top: 54px;
+    margin-right: 20px;
+    width: 337px;
+    height: 330px;
+    border: 1px solid #F7F7F7;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 5px 20px rgba(0, 0, 0, 0.05));
+    border-radius: 0px;
+}
+.service__item {
+   
+}
+
+.service__icons {
+    
+}
+.subtitle {
+    font-family: "Libre Franklin", sans-serif;
+    margin-top: 25px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+.subtext {
+    font-family: 'IBM Plex Mono', sans-serif;
+    margin-top: 13px;
+    
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px;
+    color: #999999;
+}
+
+.special-dish {
+    
+}
+.special-dish__image{
+    width: 100%;
+    padding: 0 30px;
+
+}
+
+.special-dish__name {
+    padding: 115px 0;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    max-width: 685px;
+}
+.special-dish__text {
+   
+   margin-bottom: 6px;
+   font-family: "Libre Franklin", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000;
+
+}
+.special-dish__title {
+
+}.special-dish__link {
+    
+    font-family: 'IBM Plex Mono', sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 18px;
+    color: #5AB963;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+.dish-menu {
+
+}
+.dish-menu_container {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 120px 0;
+}
+
+.dish-menu__list {
+    display: flex;
+}
+.dish-menu_image {
+    margin-right: 100px;
+}
+.dish-menu__body {
+    width: 360px;
+
+}
+.dish-menu__text {
+    font-family: "Libre Franklin", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000;
+}
+.dish-menu__title {
+}
+
+.dish-menu__subtext {
+    font-family: 'IBM Plex Mono', sans-serif;
+    margin-top: 25px;
+  
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px;
+    color: #999999;
+
+}
+
+.dish-menu__list--reversed {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 100px;
+}
+.dish-menu__list--reversed .dish-menu_image {
+    margin-right: 0;
+    margin-left: 100px;
+}
+
+.dish-menu3 {
+    margin-top: 100px;
+}
+    
+.dish-menu__footer {
+    text-align: center;
+    margin-top: 110px;
+
+}
+.dish-menu__deal {
+    margin-bottom: 12px;
+    font-family: "Libre Franklin", sans-serif;
+   font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000;
+}
+.dish-menu__link {
+  
+    font-family: 'IBM Plex Mono', sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 18px;
+    color: #5AB963;
+}
+
+
+.party {
+
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container {
+    padding: 150px 0;
+}
+.party__title {
+    font-family: "Libre Franklin", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #5AB963;
+    position: relative;
+}
+
+.party__title::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 20px;
+    width: 30px;
+    height: 2px;
+    background: #5AB963;
+}
+
+.party__text {
+    width: 483px;
+    font-family: "Libre Franklin", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000;
+}
+.whitespace {
+}
+.text__opacity {
+}
+@media (max-width:1200px) {
+    .service, .dish-menu_container{
+        padding: 120px 20px;
+    }
+
+}
+
+.footer {
+    background: #0A0E1A;
+  
+}
+.footer__container {
+    padding: 120px 0;
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;  
+}
+.container {
+    
+}
+.footer__name {
+    display: flex;
+    flex-direction: column;
+}
+.footer__img {
+    width: 100%;
+    max-width: 126px;
+    margin-bottom: 15px;
+}
+.footer__link {
+    font-family: Libre Franklin;
+    color: #666666;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+}
+.footer__body {
+    width: 585px;
+}
+.footer__options {
+    display: flex;
+    
+}
+.footer__list {
+    margin-right: 50px;
+}
+.footer__item {
+    margin-bottom: 25px;
+}
+.footer__item:last-child {
+    margin-bottom: 0;
+}
+.item__link {
+    font-family: Libre Franklin;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+}
+.list2 {
+    margin-right: 62px;
+}
+.list3 {
+    margin-right: 63px;
+}
+.footer__icons {
+   
+
+}
+.icons__link {
+    margin-right: 22px;
+}
+.icons {
+}
+
+.icons__link:hover svg {
+    
+    stroke: yellow;
+}
