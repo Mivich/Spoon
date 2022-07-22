@@ -215,7 +215,6 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
     color: #000;
 }
 .special-dish__link {
-    
     font-family: 'IBM Plex Mono', sans-serif;
     font-weight: 400;
     font-size: 11px;
@@ -250,7 +249,6 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
 .dish-menu__subtext {
     font-family: 'IBM Plex Mono', sans-serif;
     margin-top: 25px;
-  
     font-weight: 400;
     font-size: 13px;
     line-height: 24px;
